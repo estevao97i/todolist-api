@@ -1,0 +1,26 @@
+localhost:8081/users/createUser
+{
+	"login": "sofia.araujo@asdasd",
+	"name": "sofia",
+	"password": "123"
+}
+
+localhost:8081/tasks/createTask
+{
+	"title": "tarefa 2",
+	"description": "resolver problemas de estrutura de dados",
+	"startAt": "2025-02-02T12:30:00",
+	"endAt": "2026-06-25T12:30:00",
+	"priority": "LOW"
+}
+
+localhost:8081/tasks/getAllTasks
+
+localhost:8081/tasks/updateTask/d3366e4f-c5c4-4d8d-a908-894cdaedf04a
+{
+	"description": "teste problemas de estrutura de dados",
+	"title": "tarefa 4",
+	"startAt": "2025-03-02T11:30:00",
+	"endAt": "2026-06-25T12:30:00",
+	"priority": "LOW"
+}
